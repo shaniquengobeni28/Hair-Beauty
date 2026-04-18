@@ -70,14 +70,6 @@ https://gemini.google.com/app/899c3ad5665661f1d  [Accessed 12 April 2026 ].
 •	Youtube HTML Structure . Available at:
 https://www.youtube.com/watch?v=qz0aGYrrlhU&t=3224s [Acessed 12 march 2026]
 
-## Push to Remote Repository
-To sync changes:
-```bash
-git add .
-git commit -m "Update README.md for POE Part 1 with all sections"
-git push origin main
-```
-
 
 ---
 
