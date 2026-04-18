@@ -1,46 +1,84 @@
-# NEY'S Hair & Beauty Website
+ NEY'S Hair & Beauty Website
 
 ## Student Information
 - **Name**: Shanique Ngobeni
-- **Project**: Student web development project for a hair and beauty salon website.
+- **Student Number**: ST10511423
+- **Module Code**: WEDE5020
+- **Assignment**: POE Part 1
 
 ## Project Overview
-This is a static multi-page HTML website for **NEY'S Hair & Beauty**, a premium boutique in Polokwane, South Africa, specializing in high-quality frontal wigs, wig treatments, hair coloring, and natural hair care. The site showcases services, allows online enquiries via a form, provides contact details, and includes an about section.
-
-Currently built with HTML tables for layout, images from the `images/` folder, and basic navigation.
+This is a static multi-page HTML website for **NEY'S Hair & Beauty**, a premium boutique in Polokwane, South Africa. The salon specializes in high-quality frontal wigs, wig treatments, hair coloring, and natural hair care services. The site is built using pure HTML with table-based layouts, embedded images, navigation menus, and client-side forms. It serves as a professional online presence to showcase services, handle enquiries, and provide contact details. Images are stored in the `images/` directory.
 
 ## Website Goals and Objectives
-- Create a professional online presence to centralize booking and service information.
-- Replace reliance on word-of-mouth and social media with a dedicated website.
-- Showcase high-end hair gallery and maintenance info.
-- Enable easy client enquiries and contact.
+**•**	Expand the client base beyond Polokwane to surrounding areas.
+
+**•**	Reduce time spent on WhatsApp by using an online enquiry form on our website.
+
+**•**	Establish a professional online presence that reflects the luxury quality of the wigs and natural hair treatment.
 
 ## Key Features and Functionality
-- **Home Page** (`index.html`): Hero section, specialized services grid (Frontal Installation, Wig Treatment, Hair Coloring), online enquiry form, contact info with WhatsApp and location.
-- **About Page** (`about.html`): Story of the business, founder image.
-- Navigation between pages.
-- Responsive images and simple form submission (client-side).
-- Social links (Instagram, TikTok).
+- **Multi-page Navigation**: Links between Home (`index.html`), About (`about.html`), Services (`services.html`), Enquiry (`enquiry.html`), Contact (`contact.html`).
+
+-**Homepage**: show a brief introduction to the web page and highlights of our featured hair collection.
+-	**About us**: a website space that shows the business story, vision and commitment to high-quality hair care and client confidence.
+-	**Services**: website catalog showcasing different hair services provided by the boutique.
+-	**Enquiry**: Customized form functional page created for clients to book consultation and check availability.
+-**Contact page**: outline social media links that help clients to get information about the boutique and a map /location of the boutique.
+- **Social Links**: Instagram, TikTok in footer.
+- **Responsive Images**: Fixed widths for gallery/services.
 
 ## Timeline and Milestones
-- **Part 1 (Completed)**: Basic HTML structure, pages (home/about), services display, enquiry form, contact section.
-- **Future Milestones**:
-  - Part 2: CSS styling for modern layout.
-  - Part 3: JavaScript for form handling.
-  - Part 4: Responsive design and deployment.
+- **week 1 (Completed)**: project Discovery and Research
+  - **week 2**: project proposal.
+  - **week 3**: Design & Wireframing
+  - **week 4**: Deployment & Documentation.
 
-## Changelog
-- **2026-01-01**: Initial website structure created with core pages and features.
-- **Ongoing**: Track changes here (e.g., image updates, new pages).
+## Part 1 Details
+Part 1 focused on foundational HTML implementation:
+- Created 5 interlinked HTML pages using semantic sections and table layouts.
+- Integrated 10+ images from `images/` folder (e.g., service photos, maps).
+- Implemented functional navigation and client-side enquiry form.
+- Added footer with copyright and social links.
+- Verified cross-page links and basic browser compatibility.
+
+## Sitemap
+```
+NEY'S Hair & Beauty Website
+├── index.html (Home)
+├── about.html
+|Beif
+|call of action
+├── services.html
+|wig installaton
+|wig treatment
+|wig coloring
+├── enquiry.html
+|Book consultatoin.
+├── contact.html
+|phone number
+| location
+├── images/
+└── README.md
+```
 
 ## References
-- HTML/CSS best practices.
-- Images sourced from local `images/` folder.
+•	THE Independent institute of Education (pty)Ltd.2026. Web developmen 5020[WEBE5020POE]module manual South Africa.
 
-## Repository
-Pushed to remote Git repository (`origin/master`). Staged changes include updates to `about.html`.
+•	2026 Proprosal images (online). Avaliable at:  https://www.canva.com/design/DAHGiFFe17U/_ctpOmZ7LK6kX9zTCxGO8w/edit [Accessed 14           march 2026]
+https://gemini.google.com/app/899c3ad5665661f1d  [Accessed 12 April 2026 ].
+
+•	Youtube HTML Structure . Available at:
+https://www.youtube.com/watch?v=qz0aGYrrlhU&t=3224s [Acessed 12 march 2026]
+
+## Push to Remote Repository
+To sync changes:
+```bash
+git add .
+git commit -m "Update README.md for POE Part 1 with all sections"
+git push origin main
+```
+
 
 ---
 
-&copy; 2026 Shanique Ngobeni for NEY'S Hair & Beauty
-
+© 2026 Shanique Ngobeni for NEY'S Hair & Beauty
