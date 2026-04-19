@@ -62,11 +62,16 @@ NEY'S Hair & Beauty Website
 ```
 
 ## References
-••	Canva images 2026. Timeline AND milestones image and Sitemap image. Avilabele at :
+•	Canva images 2026. Timeline AND milestones image and Sitemap image. Avilabele at :
 https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit 
+
 •	Gemini images 2026. Website wireframe .Available at:https://gemini.google.com/app/899c3ad5665661f1 
+
 •	GitHub,inc 2026.GitHub Desktop and version Control Services.Available at:https://github.com/shaniquengobeni28/Hair-Beauty
+
 •	Microsoft2026. Visual studio code.Avilable at :https://code.visualstudio.com/
+
 •	The IIE 2026.WebDevelopment 5020[WEDE5020POE]Module Manul.South Afria: The Independent Institute of Education.
+
 ---
 © 2026 Shanique Ngobeni for NEY'S Hair & Beauty
