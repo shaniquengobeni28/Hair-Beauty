@@ -62,15 +62,11 @@ NEY'S Hair & Beauty Website
 ```
 
 ## References
-•	THE Independent institute of Education (pty)Ltd.2026. Web developmen 5020[WEBE5020POE]module manual South Africa.
-
-•	2026 Proprosal images (online). Avaliable at:  https://www.canva.com/design/DAHGiFFe17U/_ctpOmZ7LK6kX9zTCxGO8w/edit [Accessed 14           march 2026]
-https://gemini.google.com/app/899c3ad5665661f1d  [Accessed 12 April 2026 ].
-
-•	Youtube HTML Structure . Available at:
-https://www.youtube.com/watch?v=qz0aGYrrlhU&t=3224s [Acessed 12 march 2026]
-
-
+••	Canva images 2026. Timeline AND milestones image and Sitemap image. Avilabele at :
+https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit 
+•	Gemini images 2026. Website wireframe .Available at:https://gemini.google.com/app/899c3ad5665661f1 
+•	GitHub,inc 2026.GitHub Desktop and version Control Services.Available at:https://github.com/shaniquengobeni28/Hair-Beauty
+•	Microsoft2026. Visual studio code.Avilable at :https://code.visualstudio.com/
+•	The IIE 2026.WebDevelopment 5020[WEDE5020POE]Module Manul.South Afria: The Independent Institute of Education.
 ---
-
 © 2026 Shanique Ngobeni for NEY'S Hair & Beauty
