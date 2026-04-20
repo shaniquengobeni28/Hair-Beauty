@@ -60,7 +60,21 @@ NEY'S Hair & Beauty Website
 ├── images/
 └── README.md
 ```
+## 📜 Changelog
 
+### [v1.0.0] - 2026-04-20
+#### Added
+- Initial project structure with semantic HTML5 tags.
+- Luxury CSS styling using a Rose Gold (#E29591) and Gold (#D4AF37) palette.
+- JavaScript form validation for the boutique enquiry page.
+- "About Us" and "Mission Statement" content.
+
+#### Fixed
+- Fixed navigation bar overlap on mobile devices.
+- Corrected image paths for the wig gallery.
+
+#### Changed
+- Updated typography from standard Arial to Playfair Display for a luxury feel.
 ## References
 •	Canva images 2026. Timeline AND milestones image and Sitemap image. Avilabele at :
 https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit 
