@@ -1,4 +1,6 @@
-
+/* ==========================================================================
+   GLOBAL STYLES & RESET
+   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -6,114 +8,109 @@
 }
 
 body {
-    
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 1rem; 
+    font-family: 'Aptos', sans-serif;
     line-height: 1.6;
-    color: #3c1f3c;
-    background-color: #f9b5db; 
+    color: #333333;
+    background-color: #FAFAFA; /* Soft off-white for a luxury feel */
 }
 
-
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #622740; 
-    margin-bottom: 1rem;
-    font-weight: 700;
-}
-
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-
-a {
-    color: #39072c; 
-    text-decoration: none;
-    
-    transition: color 0.3s ease; 
-}
-
-
-a:hover, a:focus {
-    color: #a079c4;
-    text-decoration: underline;
-}
-
-a:active {
-    color: #e09cdd;
-}
-
-
-header {
-    background-color: #f0f0f0;
-    padding: 1.5rem 10%;
+/* ==========================================================================
+   NAVIGATION BAR (HEADER) SECTION
+   ========================================================================== */
+/* Flexbox layout to push logo left and nav items to the right side */
+nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(39, 2, 29, 0.933);
+    justify-content: space-between; /* Creates the left-and-right split */
+    align-items: center;            /* Vertically centers logo and links */
+    padding: 20px 40px;             /* Generates breathing room inside the nav */
+    background-color: #FFFFFF;      /* Crisp white background for contrast */
 }
 
+/* Reduces the logo font size and applies luxury gold coloring */
+nav h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #D4AF37;                 /* Premium Gold Accent */
+}
+
+/* Arranges navigation list items horizontally side-by-side */
 nav ul {
     display: flex;
-    list-style: none;
-    gap: 2rem;
+    list-style: none;               /* Strips out default bullet points */
 }
 
-main {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
+/* Creates clean, even gaps between your text menu links */
+nav ul li {
+    margin-left: 25px;
 }
 
-#hero {
-    background-color: #ffffff;
-    padding: 4rem 2rem;
+/* Styling for the navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+}
+
+/* Subtle hover effect for luxury interactive feel */
+nav ul li a:hover {
+    color: #E29591;                 /* Switches to Rose Gold on hover */
+}
+
+/* ==========================================================================
+   PAGE SECTIONS & UNIQUE BORDER STYLES
+   ========================================================================== */
+section {
+    padding: 60px 40px;
+    margin: 20px auto;
+    max-width: 1200px;              /* Keeps content beautifully contained */
+    background-color: #FFFFFF;
+}
+
+/* Section 1: Welcome/Hero Area with a Premium Gold Border */
+#home {
+    border: 5px solid #D4AF37;       /* Luxury Gold Border */
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
-    margin-bottom: 2rem;
 }
 
-button {
-    background-color: #d575cf;
-    color: rgb(88, 75, 84);
-    border: none;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+/* Section 2: Services Showcase Area with a Soft Rose Gold Border */
+#services {
+    border: 5px solid #E29591;       /* Elegant Rose Gold Border */
 }
 
-button:hover, button:focus {
-    background-color: #d77bb1;
+/* Section 3: Booking & Enquiries Area with a Bold, Classic Black Border */
+#enquiries {
+    border: 5px solid #000000;       /* High-contrast Black Border */
 }
 
-footer {
+/* Headings inside sections */
+section h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+/* ==========================================================================
+   IMAGE GALLERY ALIGNMENT & SIZING
+   ========================================================================== */
+/* Container to align your product cards perfectly side-by-side */
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Individual service item layout */
+.card {
+    flex: 1;
     text-align: center;
-    padding: 2rem;
-    background-color: #1a141e;
-    color: #ffffff;
-    margin-top: 4rem;
 }
 
-
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.5rem; }
-    
-    main {
-        padding: 0 1rem;
-    }
+/* Standardizes picture sizes and maintains clean vertical length constraints */
+.card img {
+    width: 100%;                    /* Fits perfectly inside card columns */
+    max-width: 300px;               /* Limits horizontal scaling */
+    height: 400px;                  /* Hard length boundary for straight/portrait units */
+    object-fit: cover;              /* Prevents squishing or distortion */
+    margin-bottom: 15px;
 }
