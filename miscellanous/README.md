@@ -61,6 +61,7 @@ NEY'S Hair & Beauty Website
 └── README.md
 ```
 
+
 ## References
 •	Canva images 2026. Timeline AND milestones image and Sitemap image. Avilabele at :
 https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit 
@@ -72,6 +73,16 @@ https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit
 •	Microsoft2026. Visual studio code.Avilable at :https://code.visualstudio.com/
 
 •	The IIE 2026.WebDevelopment 5020[WEDE5020POE]Module Manul.South Afria: The Independent Institute of Education.
+
+## Changelog
+### [2026-05-29] - Part 2 Implementations
+- Fixed navigation alignment issues noted in Part 1 feedback.
+- Created `style.css` to centralize all site styling external to HTML files.
+- Implemented CSS Reset for cross-browser visual consistency.
+- Applied CSS Flexbox/Grid for the desktop layout structure.
+- Added media queries with fluid breakpoints for mobile and tablet responsiveness.
+- Configured responsive imagery using `srcset` and `<picture>` tags.
+- 
 
 ---
 © 2026 Shanique Ngobeni for NEY'S Hair & Beauty
