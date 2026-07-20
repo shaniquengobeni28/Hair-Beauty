@@ -97,3 +97,10 @@ https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit
 • Microsoft2026. Visual studio code.Avilable at :https://code.visualstudio.com/
 
 • The IIE 2026.WebDevelopment 5020[WEDE5020POE]Module Manul.South Afria: The Independent Institute of Education.
+
+## Part 3 - Changelog
+
+### Feedback Corrections from Part 2
+* **Fixed Navigation Alignment**: Corrected the flexbox layout in the header to prevent navigation items from overlapping on smaller screens (Mobile-responsiveness).
+* **Improved Color Contrast**: Adjusted the background color of the footer to ensure text readability compliant with accessibility standards.
+* **Optimized Image Sizes**: Compressed large service banner images to improve website loading speeds.
