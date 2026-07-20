@@ -98,9 +98,13 @@ https://www.canva.com/design/DAHHObyNK_w/IXqo0zDtO12Hau71L5x8cQ/edit
 
 • The IIE 2026.WebDevelopment 5020[WEDE5020POE]Module Manul.South Afria: The Independent Institute of Education.
 
-## Part 3 - Changelog
+## Part 3 Update Logs
 
-### Feedback Corrections from Part 2
-* **Fixed Navigation Alignment**: Corrected the flexbox layout in the header to prevent navigation items from overlapping on smaller screens (Mobile-responsiveness).
-* **Improved Color Contrast**: Adjusted the background color of the footer to ensure text readability compliant with accessibility standards.
-* **Optimized Image Sizes**: Compressed large service banner images to improve website loading speeds.
+### Changelog (Based on Part 2 Feedback)
+*   **Fixed:** Adjusted navigation alignment across mobile viewports for better responsiveness.
+*   **Enhanced:** Optimized color contrast ratios for text overlays against blush pink background elements.
+*   **Added:** Integrated full JavaScript form interactive rules and meta descriptions.
+
+### References
+*   MDN Web Docs. (2026). . Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+*   Google Search Central. (2026). . Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
